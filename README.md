@@ -5,9 +5,10 @@ In this project, we are implementing 3 web pages built with Bootstrap. We are ty
 - Your styles.css must be as small as you can - you must use as much as you can Bootstrap classes
 ## Final Results
 These are what the final result of our pages should recreate in both the desktop and mobile versions of each page. The pages from left to right are the Homepage, Pricing page, and Courses page.
+
 ![example-pages](images/example.jpg)
 ## Tasks
-0. [Read and be familiar with Figma](#read)
+0. [Read and be familiar with Figma](#Read-and-be-familiar-with-Figma)
 1. [Header first](#header)
 2. [Carousel of quotes](#carousel)
 3. [Popular videos](#popular)
@@ -23,11 +24,11 @@ These are what the final result of our pages should recreate in both the desktop
 14. [List of result](#list)
 15. [Close the page with a footer](#last-task)
 
-### Read and be familiar with Figma
+### Read and be familiar with Figma 
 Create an account in Figma and open these files:
-- ![Homepage](https://www.figma.com/file/hcxMqRWjdj06jHycRkbzOf/Homepage?type=design&node-id=0%3A1&mode=design&t=iJoLzlFhrcbxSuHp-1)
-- ![Pricing](https://www.figma.com/file/QQmdkH49hKJuJ6244fBXzH/Pricing?type=design&node-id=0%3A1&mode=design&t=6DsY9JhEzAKi9umc-1)
-- ![Courses](https://www.figma.com/file/zKRy0vMRBjwHaKBn1WnavS/Courses?type=design&node-id=0%3A1&mode=design&t=tDcOvAFZroVFgXfH-1)
+- [Homepage](https://www.figma.com/file/hcxMqRWjdj06jHycRkbzOf/Homepage?type=design&node-id=0%3A1&mode=design&t=iJoLzlFhrcbxSuHp-1)
+- [Pricing](https://www.figma.com/file/QQmdkH49hKJuJ6244fBXzH/Pricing?type=design&node-id=0%3A1&mode=design&t=6DsY9JhEzAKi9umc-1)
+- [Courses](https://www.figma.com/file/zKRy0vMRBjwHaKBn1WnavS/Courses?type=design&node-id=0%3A1&mode=design&t=tDcOvAFZroVFgXfH-1)
 
 And “Duplicate to your Drafts” to have access to all design details.
 
