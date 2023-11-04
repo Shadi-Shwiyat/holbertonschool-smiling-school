@@ -6,36 +6,48 @@
     <title>Smile School</title>
 
     <!--Bootstrap 4.4.1-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
 
-    <!--Script for Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
     <!--Stylesheet and icon-->
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    <!--Header-Hero Section (Main body)-->
-    <section>
-        <!--Header and Nav links-->
-        <div>
-            <a href="#"><img src="images/logo.png" alt="header-logo"></a>
-            <nav>
-                <a href="courses.html">COURSES</a>
-                <a href="pricing.html">PRICING</a>
-                <a href="#">LOGIN</a>
-            </nav>
+<body class="text-white">
+    <!--Header and Nav links-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-xl mt-4 px-5">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.png" alt="header_logo">
+            </a>
+            <!--Toggle button for mobile nav-->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navbar Links-->
+            <div class="collapse navbar-collapse justify-content-end justify-content-center-sm align-center" id="main-nav">
+                <ul class="navbar-nav fw-bold">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-white fs-6" href="courses.html">COURSES</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-white fs-6" href="pricing.html">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="#">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <!--Hero Section (Main body)-->
+    <section>
         <!--Title and register button-->
-        <div>
-            <h1>Get schooled</h1>
+        <div class="title_register_div">
+            <h1 class="h1 text-center fw-bold no">Get schooled</h1>
             <div>
                 <p>Smiles</p>
                 <p>Grin</p>
@@ -79,5 +91,7 @@
             </div>
         </div>
     </section>
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

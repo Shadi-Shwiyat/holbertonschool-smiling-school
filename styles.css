@@ -1,7 +1,19 @@
-/*Adding background to body and set max width*/
+/*Fonts and sizes*/
+.h1 {
+    font-size: calc(6rem + .3vw)!important;
+}
+/*Adding background and font family to body*/
 body {
-    max-width: 1440px;
+    font-family: 'Source Sans Pro';
     background-image: url(images/background_1.png);
     background-repeat: no-repeat;
     background-position: top center;
+}
+/*Set hamburger icon color to white*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Custom margin for title div*/
+.title_register_div {
+    margin-top: 149px;
 }
