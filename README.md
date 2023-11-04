@@ -9,7 +9,7 @@ These are what the final result of our pages should recreate in both the desktop
 ![example-pages](images/example.jpg)
 ## Tasks
 0. [Read and be familiar with Figma](#Read-and-be-familiar-with-Figma)
-1. [Header first](#header)
+1. [Header first](#Header-first)
 2. [Carousel of quotes](#carousel)
 3. [Popular videos](#popular)
 4. [Row of smiles](#row)
@@ -43,3 +43,13 @@ Interactions note:
 - Web pages must switch to the tablet version when the screen width is 768px
 - Web pages must switch to the mobile version when the screen width is 576px
 - button hover/active: opacity: 0.9
+### Header first
+Let’s start by the Homepage: create the header/hero piece
+
+Desktop:
+
+![desktop-header](images/desktop-header-homepage.png)
+
+Mobile:
+
+![mobile-header](images/mobile-header-homepage.gif)
