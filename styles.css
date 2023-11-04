@@ -1,0 +1,7 @@
+/*Adding background to body and set max width*/
+body {
+    max-width: 1440px;
+    background-image: url(images/background_1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
