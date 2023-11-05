@@ -1,19 +1,45 @@
+/*Variables*/
+:root {
+    --color-primary: #C271FF;
+}
 /*Fonts and sizes*/
 .h1 {
-    font-size: calc(6rem + .3vw)!important;
+    font-size: calc(6rem + .2vw)!important;
 }
 /*Adding background and font family to body*/
 body {
     font-family: 'Source Sans Pro';
+}
+.hero-header {
     background-image: url(images/background_1.png);
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: cover;
+}
+.container-xxl {
+    max-width: 1440px;
 }
 /*Set hamburger icon color to white*/
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-/*Custom margin for title div*/
+/*Custom margins*/
 .title_register_div {
-    margin-top: 149px;
+    margin-top: 163px;
+}
+.pros-div {
+    margin-top: 160px;
+}
+/*Button styling*/
+.btn:hover {
+    opacity: .9;
+    background-color: #C271FF;
+}
+.btn-primary {
+    background-color: var(--color-primary);
+    border: var(--color-primary);
+}
+/*Pro image sizing*/
+.pro-img {
+    max-width: 150px;
 }

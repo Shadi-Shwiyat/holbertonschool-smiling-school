@@ -16,75 +16,75 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body class="text-white">
-    <!--Header and Nav links-->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container-xl mt-4 px-5">
-            <a href="#" class="navbar-brand">
-                <img src="images/logo.png" alt="header_logo">
-            </a>
-            <!--Toggle button for mobile nav-->
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Navbar Links-->
-            <div class="collapse navbar-collapse justify-content-end justify-content-center-sm align-center" id="main-nav">
-                <ul class="navbar-nav fw-bold">
-                    <li class="nav-item me-5">
-                        <a class="nav-link text-white fs-6" href="courses.html">COURSES</a>
-                    </li>
-                    <li class="nav-item me-5">
-                        <a class="nav-link text-white fs-6" href="pricing.html">PRICING</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fs-6" href="#">LOGIN</a>
-                    </li>
-                </ul>
+<body class="text-white container-xxl p-0">
+    <section class="hero-header">
+        <!--Header and Nav links-->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="d-flex container-xl mt-4 px-5">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="header_logo">
+                </a>
+                <!--Toggle button for mobile nav-->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Navbar Links-->
+                <div class="collapse navbar-collapse justify-content-end justify-content-center-sm align-center" id="main-nav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-white fs-6" href="courses.html">COURSES</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-white fs-6" href="pricing.html">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-6" href="#">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!--Hero Section (Main body)-->
-    <section>
+        </nav>
+        <!--Hero Section (Main body)-->
         <!--Title and register button-->
-        <div class="title_register_div">
-            <h1 class="h1 text-center fw-bold no">Get schooled</h1>
-            <div>
-                <p>Smiles</p>
-                <p>Grin</p>
+        <div class="title_register_div d-flex flex-column justify-content-center">
+            <h1 class="h1 text-center fw-bold">Get schooled</h1>
+            <div class="d-flex justify-content-center fw-bold text-uppercase">
+                <p class="me-5">Smiles</p>
+                <p class="me-5">Grin</p>
                 <p>Laugh</p>
             </div>
-            <button>REGISTER FOR FREE</button>
+            <button class="btn btn-primary rounded-pill mt-4 align-self-center">REGISTER FOR FREE</button>
         </div>
         <!--Learn from pros div-->
-        <div>
-            <h2><span>Learn</span> from the pros</h2>
+        <div class="pros-div container-xl d-flex flex-column justify-content-center">
+            <h2 class="align-self-center fw-light"><span>Learn</span> from the pros</h2>
             <!--Pros-->
-            <div>
+            <div class="row d-flex flex-sm-wrap justify-content-around mt-5 p-3">
                 <!--Pro1-->
-                <div>
-                    <img src="images/profile_1.jpg" alt="phillip_massey">
-                    <h3>Phillip Massey</h3>
+                <div class="d-flex flex-column flex-nowrap align-items-center col-6 col-sm-3 order-0">
+                    <img src="images/profile_1.jpg" alt="phillip_massey" class="rounded-circle img-fluid pro-img">
+                    <h3 class="h5 fw-bold mt-2">Phillip Massey</h3>
                     <p>« Smile of the year »</p>
                     <p>2018 - 2019</p>
                 </div>
                 <!--Pro2-->
-                <div>
-                    <img src="images/profile_2.jpg" alt="nannie">
-                    <h3>Nannie Lawrence</h3>
+                <div class="d-flex flex-column align-items-center col-6 col-sm-3 order-1">
+                    <img src="images/profile_2.jpg" alt="nannie" class="rounded-circle img-fluid pro-img">
+                    <h3 class="h5 fw-bold mt-2">Nannie Lawrence</h3>
                     <p>Best « little smile »</p>
                     <p>2017</p>
                 </div>
                 <!--Pro3-->
-                <div>
-                    <img src="images/profile_3.jpg" alt="bruce">
-                    <h3>Bruce Walters</h3>
+                <div class="d-flex flex-column align-items-center col-6 col-sm-3 order-2">
+                    <img src="images/profile_3.jpg" alt="bruce" class="rounded-circle img-fluid pro-img">
+                    <h3 class="h5 fw-bold mt-2">Bruce Walters</h3>
                     <p>Best « Friend Smile »</p>
                     <p>live performance 2019</p>
                 </div>
                 <!--Pro4-->
-                <div>
-                    <img src="images/profile_4.jpg" alt="henry">
-                    <h3>Henry Hughes</h3>
+                <div class="d-flex flex-column align-items-center col-6 col-sm-3 order-3">
+                    <img src="images/profile_4.jpg" alt="henry" class="rounded-circle img-fluid pro-img">
+                    <h3 class="h5 fw-bold mt-2">Henry Hughes</h3>
                     <p>« 24h smiles » winner</p>
                     <p>2016 - 2019</p>
                 </div>
