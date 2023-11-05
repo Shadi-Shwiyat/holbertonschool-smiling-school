@@ -9,6 +9,9 @@
 .text-primary {
     color: var(--color-primary)!important;
 }
+.fs-sm-6 {
+    font-size: 1rem;
+}
 /*Adding background and font family to body*/
 body {
     font-family: 'Source Sans Pro';

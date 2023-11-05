@@ -20,21 +20,31 @@
     <section class="hero-header">
         <!--Header and Nav links-->
         <nav class="navbar navbar-expand-sm navbar-light">
-            <div class="d-flex container-xl mt-4 px-5">
-                <a href="#" class="navbar-brand">
-                    <img src="images/logo.png" alt="header_logo">
-                </a>
-                <!--Toggle button for mobile nav-->
-                <button class="navbar-toggler border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="d-flex container-xl mt-4 px-sm-5">
+                <!--Desktop/tablet logo container-->
+                <div class="d-none d-sm-block">
+                    <a href="#" class="navbar-brand">
+                        <img src="images/logo.png" alt="header_logo" class="">
+                    </a>
+                </div>
+                <!--Mobile container-->
+                <div class="d-flex d-sm-none">
+                    <!--Toggle button for mobile nav-->
+                    <button class="navbar-toggler border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Stacked logo for mobile view-->
+                    <a href="#" class="navbar-brand">
+                        <img src="images/logo-sm.png" alt="header_logo_small" class="position-absolute start-50 mt-4 translate-middle">
+                    </a>
+                </div>
                 <!--Navbar Links-->
-                <div class="collapse navbar-collapse justify-content-sm-end align-center" id="main-nav">
+                <div class="collapse navbar-collapse justify-content-sm-end align-center text-center mt-5 mt-sm-0" id="main-nav">
                     <ul class="navbar-nav fw-bold">
-                        <li class="nav-item me-5">
+                        <li class="nav-item me-sm-5 mb-3 mb-sm-0">
                             <a class="nav-link text-white fs-6" href="courses.html">COURSES</a>
                         </li>
-                        <li class="nav-item me-5">
+                        <li class="nav-item me-sm-5 mb-3 mb-sm-0">
                             <a class="nav-link text-white fs-6" href="pricing.html">PRICING</a>
                         </li>
                         <li class="nav-item">
