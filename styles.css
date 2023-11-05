@@ -2,9 +2,12 @@
 :root {
     --color-primary: #C271FF;
 }
-/*Fonts and sizes*/
+/*Fonts, sizes, and colors*/
 .h1 {
     font-size: calc(6rem + .2vw)!important;
+}
+.text-primary {
+    color: var(--color-primary)!important;
 }
 /*Adding background and font family to body*/
 body {
@@ -19,7 +22,7 @@ body {
 .container-xxl {
     max-width: 1440px;
 }
-/*Set hamburger icon color to white*/
+/*Set hamburger icon color to white and adjusting position*/
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -42,4 +45,11 @@ body {
 /*Pro image sizing*/
 .pro-img {
     max-width: 150px;
+}
+
+/*Media query for mobile view*/
+@media (max-width: 576px) {
+    .h1 {
+        font-size: calc(4rem + .2vw)!important;
+    }
 }
