@@ -53,3 +53,10 @@ Desktop:
 Mobile:
 
 ![mobile-header](images/mobile-header-homepage.gif)
+### Carousel of quotes
+Create the section “Carousel of quotes”
+
+By using a Carousel component of Bootstrap, create this Carousel of quotes.
+
+You can have for the moment one quote or twice the same for testing (like example below)
+![carousel-quotes](images/carousel-quotes.gif)

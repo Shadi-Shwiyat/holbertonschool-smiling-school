@@ -1,6 +1,7 @@
 /*Variables*/
 :root {
     --color-primary: #C271FF;
+    --color-primary-clicked: rgb(123, 63, 168);
 }
 /*Fonts, sizes, and colors*/
 .h1 {
@@ -44,6 +45,11 @@ body {
 .btn-primary {
     background-color: var(--color-primary);
     border: var(--color-primary);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #FFF;
+    background-color: var(--color-primary-clicked);
+    border-color: var(--color-primary-clicked);
 }
 /*Pro image sizing*/
 .pro-img {
