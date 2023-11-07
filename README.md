@@ -12,7 +12,7 @@ These are what the final result of our pages should recreate in both the desktop
 1. [Header first](#Header-first)
 2. [Carousel of quotes](#Carousel-of-quotes)
 3. [Popular videos](#Popular-videos)
-4. [Row of smiles](#row)
+4. [Row of smiles](#Row-of-smiles)
 5. [Latest videos](#latest)
 7. [Pricing - header](#pricing)
 8. [Prices grid](#prices)
@@ -70,3 +70,6 @@ Reminder:
 - Tablet: 2 cards
 - Mobile: 1 card
 ![popular-carousel](images/task3-img.png)
+### Row of smiles
+Create the section “Free membership”
+![smile-row](images/smiles-row.png)

@@ -2,6 +2,8 @@
 :root {
     --color-primary: #C271FF;
     --color-primary-clicked: rgb(123, 63, 168);
+    --color-secondary: #071629;
+
 }
 /*Fonts, sizes, and colors*/
 .h1 {
@@ -13,8 +15,16 @@
 .fs-sm-6 {
     font-size: 1rem;
 }
+.fs-7 {
+    font-size: .8rem!important;
+    font-weight: 100!important;
+}
 .bg-primary {
     background-color: var(--color-primary)!important;
+    background-size: cover;
+}
+.bg-secondary {
+    background-color: var(--color-secondary)!important;
     background-size: cover;
 }
 /*Adding background and font family to body*/
@@ -42,7 +52,7 @@ body {
     margin-top: 160px;
 }
 .popular-heading {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 /*Button styling*/
 .btn:hover {
@@ -77,6 +87,10 @@ body {
 .rating-image {
     max-width: 107px;
     max-height: 15px;
+}
+.smile-img {
+    max-width: 45px;
+    max-height: 36px;
 }
 /*Quote carousel styling*/
 .carousel-control-prev-icon {
@@ -166,5 +180,9 @@ body {
     }
     .carousel-control-next-icon {
         margin-bottom: 220px;
+    }
+    /*Popular carousel*/
+    .popular-heading {
+        margin-top: 60px;
     }
 }
