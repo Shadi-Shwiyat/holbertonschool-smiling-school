@@ -92,6 +92,14 @@ body {
     max-width: 45px;
     max-height: 36px;
 }
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 64px;
+    max-height: 64px;
+}
 /*Quote carousel styling*/
 .carousel-control-prev-icon {
     background-image: url(images/arrow_white_left.png);
