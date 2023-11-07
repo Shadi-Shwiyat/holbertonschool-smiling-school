@@ -13,6 +13,10 @@
 .fs-sm-6 {
     font-size: 1rem;
 }
+.bg-primary {
+    background-color: var(--color-primary)!important;
+    background-size: cover;
+}
 /*Adding background and font family to body*/
 body {
     font-family: 'Source Sans Pro';
@@ -51,14 +55,78 @@ body {
     background-color: var(--color-primary-clicked);
     border-color: var(--color-primary-clicked);
 }
-/*Pro image sizing*/
+/*Image sizing*/
 .pro-img {
     max-width: 150px;
 }
-
+.quote-image {
+    max-width: 148px;
+    max-height: 148px;
+    position: absolute;
+    right: 15%;
+    bottom: -7.75rem;
+    left: 15%;
+}
+/*Quote carousel styling*/
+.carousel-control-prev-icon {
+    background-image: url(images/arrow_white_left.png);
+    height: 63px;
+    width: 30px;
+}
+.carousel-control-next-icon {
+    background-image: url(images/arrow_white_right.png);
+    height: 63px;
+    width: 30px;
+}
+.quote-caption {
+    bottom: -9rem;
+    right: 10%;
+    left: 29%;
+}
+/*Media query for resizing issues*/
+@media (max-width: 1200px) {
+    /*Quote carousel positioning*/
+    .quote-caption {
+        left: 33%;
+    }
+}
+/*Media query for more resizing issues*/
+@media (max-width: 930px) {
+    /*Quote carousel positioning*/
+    .quote-caption {
+        left: 36%;
+        right: 13%;
+        bottom: -9.35rem;
+    }
+}
+/*Media query for tablets*/
+@media (max-width: 768px) {
+    /*Quote carousel positioning*/
+    .quote-caption {
+        left: 43%;
+        right: 13%;
+        bottom: -9.75rem;
+    }
+}
 /*Media query for mobile view*/
 @media (max-width: 576px) {
+    /*Header sizing*/
     .h1 {
         font-size: calc(4rem + .2vw)!important;
+    }
+    /*Quote Carousel positioning*/
+    .quote-image {
+        margin-bottom: 80px;
+        position: static;
+    }
+    .quote-caption {
+        bottom: -7.5rem;
+        left: 15%;
+    }
+    .carousel-control-prev-icon {
+        margin-bottom: 220px;
+    }
+    .carousel-control-next-icon {
+        margin-bottom: 220px;
     }
 }
