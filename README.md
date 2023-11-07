@@ -10,8 +10,8 @@ These are what the final result of our pages should recreate in both the desktop
 ## Tasks
 0. [Read and be familiar with Figma](#Read-and-be-familiar-with-Figma)
 1. [Header first](#Header-first)
-2. [Carousel of quotes](#carousel)
-3. [Popular videos](#popular)
+2. [Carousel of quotes](#Carousel-of-quotes)
+3. [Popular videos](#Popular-videos)
 4. [Row of smiles](#row)
 5. [Latest videos](#latest)
 7. [Pricing - header](#pricing)
@@ -60,3 +60,13 @@ By using a Carousel component of Bootstrap, create this Carousel of quotes.
 
 You can have for the moment one quote or twice the same for testing (like example below)
 ![carousel-quotes](images/carousel-quotes.gif)
+### Popular videos
+Create the section “Most popular tutorials”
+
+By using a Carousel component of Bootstrap, create this Carousel of video cards.
+
+Reminder:
+- Desktop: 4 cards
+- Tablet: 2 cards
+- Mobile: 1 card
+![popular-carousel](images/task3-img.png)

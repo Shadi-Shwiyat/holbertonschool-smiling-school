@@ -41,6 +41,9 @@ body {
 .pros-div {
     margin-top: 160px;
 }
+.popular-heading {
+    margin-top: 100px;
+}
 /*Button styling*/
 .btn:hover {
     opacity: .9;
@@ -67,6 +70,14 @@ body {
     bottom: -7.75rem;
     left: 15%;
 }
+.tutorial_tiny_image {
+    max-width: 30px;
+    max-height: 30px;
+}
+.rating-image {
+    max-width: 107px;
+    max-height: 15px;
+}
 /*Quote carousel styling*/
 .carousel-control-prev-icon {
     background-image: url(images/arrow_white_left.png);
@@ -82,6 +93,25 @@ body {
     bottom: -9rem;
     right: 10%;
     left: 29%;
+}
+/*Popular carousel styling*/
+.carousel-control-next-icon-black {
+    background-image: url(images/arrow_black_right.png);
+    height: 63px;
+    width: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+.carousel-control-prev-icon-black {
+    background-image: url(images/arrow_black_left.png);
+    height: 63px;
+    width: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
 }
 /*Media query for resizing issues*/
 @media (max-width: 1200px) {
@@ -106,6 +136,14 @@ body {
         left: 43%;
         right: 13%;
         bottom: -9.75rem;
+    }
+}
+/*Media query for more resizing issues*/
+@media (max-width: 666px) {
+    /*Popular carousel*/
+    .popular-md-card-container {
+        padding-left: 2rem!important;
+        padding-right: 2rem!important;
     }
 }
 /*Media query for mobile view*/
