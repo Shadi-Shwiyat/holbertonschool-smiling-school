@@ -14,6 +14,7 @@ These are what the final result of our pages should recreate in both the desktop
 3. [Popular videos](#Popular-videos)
 4. [Row of smiles](#Row-of-smiles)
 5. [Latest videos](#Latest-videos)
+6. [... and the footer!](#footer)
 7. [Pricing - header](#pricing)
 8. [Prices grid](#prices)
 9. [Quotes section](#quotes)
@@ -77,3 +78,4 @@ Create the section “Free membership”
 Create the section “Latest videos”
 
 Copy the block “Most popular tutorials” to “Latest videos”
+### <a name="footer"></a> ... and the footer!
