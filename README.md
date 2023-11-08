@@ -79,3 +79,5 @@ Create the section “Latest videos”
 
 Copy the block “Most popular tutorials” to “Latest videos”
 ### <a name="footer"></a> ... and the footer!
+Create the footer
+![footer-1](images/footer-1.png)
