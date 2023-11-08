@@ -60,6 +60,7 @@ Create the section “Carousel of quotes”
 By using a Carousel component of Bootstrap, create this Carousel of quotes.
 
 You can have for the moment one quote or twice the same for testing (like example below)
+
 ![carousel-quotes](images/carousel-quotes.gif)
 ### Popular videos
 Create the section “Most popular tutorials”
@@ -70,9 +71,11 @@ Reminder:
 - Desktop: 4 cards
 - Tablet: 2 cards
 - Mobile: 1 card
+
 ![popular-carousel](images/task3-img.png)
 ### Row of smiles
 Create the section “Free membership”
+
 ![smile-row](images/smiles-row.png)
 ### Latest videos
 Create the section “Latest videos”
@@ -80,4 +83,5 @@ Create the section “Latest videos”
 Copy the block “Most popular tutorials” to “Latest videos”
 ### <a name="footer"></a> ... and the footer!
 Create the footer
+
 ![footer-1](images/footer-1.png)
