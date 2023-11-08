@@ -85,3 +85,11 @@ Copy the block “Most popular tutorials” to “Latest videos”
 Create the footer
 
 ![footer-1](images/footer-1.png)
+### <a name="pricing"></a> Pricing - header
+Now, let’s do the pricing page: create the header/hero piece
+
+The mobile version must be the same as the Homepage - it’s time to reuse code!
+
+Desktop:
+
+![pricing-header](images/pricing-header.png)

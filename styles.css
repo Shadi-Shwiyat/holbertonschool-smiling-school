@@ -3,7 +3,6 @@
     --color-primary: #C271FF;
     --color-primary-clicked: rgb(123, 63, 168);
     --color-secondary: #071629;
-
 }
 /*Fonts, sizes, and colors*/
 .h1 {
@@ -27,6 +26,7 @@
     background-color: var(--color-secondary)!important;
     background-size: cover;
 }
+.nav-link
 /*Adding background and font family to body*/
 body {
     font-family: 'Source Sans Pro';
@@ -43,6 +43,30 @@ body {
 /*Set hamburger icon color to white and adjusting position*/
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Navbar hover animation*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+.hover-underline-animation:hover {
+    color: var(--color-primary)!important;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 83%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 6px;
+  left: 7px;
+  background-color: #FFF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 /*Custom margins*/
 .title_register_div {
