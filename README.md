@@ -13,7 +13,7 @@ These are what the final result of our pages should recreate in both the desktop
 2. [Carousel of quotes](#Carousel-of-quotes)
 3. [Popular videos](#Popular-videos)
 4. [Row of smiles](#Row-of-smiles)
-5. [Latest videos](#latest)
+5. [Latest videos](#Latest-videos)
 7. [Pricing - header](#pricing)
 8. [Prices grid](#prices)
 9. [Quotes section](#quotes)
@@ -73,3 +73,7 @@ Reminder:
 ### Row of smiles
 Create the section “Free membership”
 ![smile-row](images/smiles-row.png)
+### Latest videos
+Create the section “Latest videos”
+
+Copy the block “Most popular tutorials” to “Latest videos”
