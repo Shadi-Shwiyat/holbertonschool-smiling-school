@@ -17,13 +17,13 @@ These are what the final result of our pages should recreate in both the desktop
 6. [... and the footer!](#footer)
 7. [Pricing - header](#pricing)
 8. [Prices grid](#Prices-grid)
-9. [Quotes section](#quotes)
-10. [FAQ](#faq)
-11. [Close the page with a footer](#close)
+9. [Quotes section](#Quotes-section)
+10. [FAQ](#FAQ)
+11. [Close the page with a footer](#Close-the-page-with-a-footer)
 12. [Courses - header](#courses)
-13. [Search filters](#search)
-14. [List of result](#list)
-15. [Close the page with a footer](#last-task)
+13. [Search filters](#Search-filters)
+14. [List of result](#List-of-result)
+15. [Close the courses with a footer](#Close-the-courses-with-a-footer)
 
 ### Read and be familiar with Figma 
 Create an account in Figma and open these files:
@@ -99,3 +99,51 @@ Create the prices grid
 Desktop:
 
 ![pricing-grid](images/pricing-grid.png)
+
+Mobile:
+
+![pricing-grid-mobile](images/pricing-grid-mobile.png)
+### Quotes section
+Same as the Homepage, create the Carousel of quotes
+### FAQ
+Create the FAQ grid
+
+Desktop:
+
+![faq](images/faq.png)
+
+Mobile:
+
+![faq-mobile](images/faq-mobile.png)
+### Close the page with a footer
+Same as Homepage, create the footer
+### <a name="courses"></a>Courses - header
+Now, let’s do the courses page: create the header/hero piece
+
+The mobile version must be the same as the Homepage - it’s time to reuse code!
+
+Desktop:
+
+![course-header](images/courses-header.png)
+### Search filters
+Create the search filters section
+
+Dropdown is a nice way to create filters.
+
+For the selected/placeholder value of both dropdown, no need to have dynamic value - static content is totally ok.
+
+Desktop:
+
+![search-desktop](images/form.gif)
+
+Tablet/Mobile:
+
+![search-mobile](images/form-mobile.gif)
+### List of result
+Create the result section of courses
+
+You can reuse the same cell for testing. Don’t forget to test with odd and even number of cells.
+
+![results](images/results.gif)
+### Close the courses with a footer
+Same as Homepage and Pricing page, create the footer
