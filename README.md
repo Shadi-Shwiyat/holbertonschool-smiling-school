@@ -16,7 +16,7 @@ These are what the final result of our pages should recreate in both the desktop
 5. [Latest videos](#Latest-videos)
 6. [... and the footer!](#footer)
 7. [Pricing - header](#pricing)
-8. [Prices grid](#prices)
+8. [Prices grid](#Prices-grid)
 9. [Quotes section](#quotes)
 10. [FAQ](#faq)
 11. [Close the page with a footer](#close)
@@ -93,3 +93,9 @@ The mobile version must be the same as the Homepage - it’s time to reuse code!
 Desktop:
 
 ![pricing-header](images/pricing-header.png)
+### Prices grid
+Create the prices grid
+
+Desktop:
+
+![pricing-grid](images/pricing-grid.png)

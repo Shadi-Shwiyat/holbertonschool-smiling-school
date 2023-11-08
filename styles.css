@@ -33,7 +33,9 @@ body {
 }
 .fs-7 {
     font-size: .8rem!important;
-    font-weight: 100!important;
+}
+.table-price {
+    font-size: 44px!important;
 }
 .bg-primary {
     background-color: var(--color-primary)!important;
@@ -155,6 +157,13 @@ body {
     max-width: 130px;
     max-height: 30px;
     margin-right: 160px;
+}
+.checkmark {
+    max-width: 53px;
+    max-height: 29px;
+}
+#checkmark-1 {
+    margin-left: 298px;
 }
 /*Quote carousel styling*/
 .carousel-control-prev-icon {
