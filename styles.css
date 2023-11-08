@@ -5,11 +5,28 @@
     --color-secondary: #071629;
 }
 /*Fonts, sizes, and colors*/
+body {
+    font-family: 'Source Sans Pro';
+}
+.coiny {
+    font-family: 'Coiny';
+}
+.go-pro {
+    font-size: 60px;
+    margin-top: 6rem;
+}
+.faq {
+    font-size: 60px;
+    color: var(--color-secondary)!important;
+}
 .h1 {
     font-size: calc(6rem + .2vw)!important;
 }
 .text-primary {
     color: var(--color-primary)!important;
+}
+.text-dark {
+    color: var(--color-secondary)!important;
 }
 .fs-sm-6 {
     font-size: 1rem;
@@ -26,13 +43,15 @@
     background-color: var(--color-secondary)!important;
     background-size: cover;
 }
-.nav-link
-/*Adding background and font family to body*/
-body {
-    font-family: 'Source Sans Pro';
-}
+/*Adding background to body*/
 .hero-header {
     background-image: url(images/background_1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.pricing-header {
+    background-image: url(images/background_2.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
