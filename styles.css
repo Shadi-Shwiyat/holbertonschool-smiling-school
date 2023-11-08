@@ -103,6 +103,16 @@ body {
     max-width: 64px;
     max-height: 64px;
 }
+.footer-logo {
+    max-width: 169px;
+    max-height: 30px;
+    margin-left: 160px;
+}
+.footer-socials {
+    max-width: 130px;
+    max-height: 30px;
+    margin-right: 160px;
+}
 /*Quote carousel styling*/
 .carousel-control-prev-icon {
     background-image: url(images/arrow_white_left.png);
@@ -144,6 +154,13 @@ body {
     .quote-caption {
         left: 33%;
     }
+    /*Footer styling*/
+    .footer-logo {
+        margin-left: 90px;
+    }
+    .footer-socials {
+        margin-right: 90px;
+    }
 }
 /*Media query for more resizing issues*/
 @media (max-width: 930px) {
@@ -153,6 +170,13 @@ body {
         right: 13%;
         bottom: -9.35rem;
     }
+        /*Footer styling*/
+        .footer-logo {
+            margin-left: 70px;
+        }
+        .footer-socials {
+            margin-right: 70px;
+        }
 }
 /*Media query for tablets*/
 @media (max-width: 768px) {
@@ -161,6 +185,13 @@ body {
         left: 43%;
         right: 13%;
         bottom: -9.75rem;
+    }
+    /*Footer styling*/
+    .footer-logo {
+        margin-left: 50px;
+    }
+    .footer-socials {
+        margin-right: 50px;
     }
 }
 /*Media query for more resizing issues*/
@@ -176,7 +207,7 @@ body {
     }
 }
 /*Media query for mobile view*/
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     /*Header sizing*/
     .h1 {
         font-size: calc(4rem + .2vw)!important;
@@ -202,5 +233,12 @@ body {
     }
     .latest-heading {
         margin-top: 60px;
+    }
+    /*Footer styling*/
+    .footer-logo {
+        margin-left: 0px;
+    }
+    .footer-socials {
+        margin-right: 0px;
     }
 }
