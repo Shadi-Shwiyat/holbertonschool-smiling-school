@@ -52,7 +52,6 @@ body {
 }
 .form-control {
     background-color: var(--color-primary-forms);
-    color: #FFF!important;
 }
 .form-control::placeholder {
     color: #FFF;
@@ -184,6 +183,10 @@ body {
 .signal-img {
     max-width: 88px;
     max-height: 35px;
+}
+.search-icon {
+    position: absolute;
+    
 }
 /*Quote carousel styling*/
 .carousel-control-prev-icon {
