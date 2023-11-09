@@ -1,5 +1,10 @@
 # Smiling School - Implementing a design with bootstrap
 In this project, we are implementing 3 web pages built with Bootstrap. We are tying together all the HTML/CSS/Accessibility/Responsive Design/and Bootstrap knowledge we have previously learned We are given freedom to implement the web page as we see fit, however we are to keep our CSS file as small as possible and rely on Bootstrap classes as much as we can. The 3 web pages final results are given to us as Figma designer files, and we are to recreate them. This project will be completed in one week.
+## Demo
+This is a fully functioning demo to the site hosted on Github pages!
+
+[Click me!!](https://shadi-shwiyat.github.io/holbertonschool-smiling-school/)
+
 ## Requirements
 - You have to use Bootstrap
 - Your styles.css must be as small as you can - you must use as much as you can Bootstrap classes
