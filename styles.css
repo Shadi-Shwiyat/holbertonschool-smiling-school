@@ -64,7 +64,7 @@ body {
     background-position: top center;
     background-size: cover;
 }
-.pricing-header {
+.header-grid {
     background-image: url(images/background_2.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -180,8 +180,9 @@ body {
     max-width: 53px;
     max-height: 29px;
 }
-#checkmark-1 {
-    margin-left: 298px;
+.signal-img {
+    max-width: 88px;
+    max-height: 35px;
 }
 /*Quote carousel styling*/
 .carousel-control-prev-icon {

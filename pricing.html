@@ -17,7 +17,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body class="text-white container-xxl p-0">
-    <section class="pricing-header">
+    <section class="header-grid">
         <!--Header and Nav links-->
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="d-flex container-xl mt-4 px-sm-5">
@@ -48,7 +48,7 @@
                             <a class="nav-link text-white fs-6 hover-underline-animation" href="pricing.html">PRICING</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-6 hover-underline-animation" href="#">LOGIN</a>
+                            <a class="nav-link text-white fs-6 hover-underline-animation" href="index.html">LOGIN</a>
                         </li>
                     </ul>
                 </div>
@@ -62,27 +62,76 @@
         <div class="container-xl d-flex flex-column justify-content-center">
             <h2 class="align-self-center fw-bolder go-pro">Go pro!</h2>
             <div class="container-xl my-5">
-                <!--Button row-->
-                <div class="row">
-                    <button class="btn btn-primary rounded-pill col-5 col-sm-3 col-lg-2 offset-lg-5 offset-sm-4 py-2 px-0 fs-5 text-nowrap">BUY 3 MONTHS</button>
-                    <button class="btn btn-primary rounded-pill col-5 col-sm-3 col-lg-2 offset-lg-2 offset-sm-1 py-2 offset-1 px-0 fs-5 text-nowrap">BUY 1 YEAR</button>
-                </div>
-                <!--Pricing row-->
-                <div class="row mt-4">
-                    <div class="col-5 col-sm-3 col-lg-2 offset-lg-5 offset-sm-4">
+                <!--Pricing row with buttons-->
+                <div class="row mt-4 text-center mx-md-5 mx-sm-2 mx-0">
+                    <div class="col-md-4 col-0"></div>
+                    <div class="col-md-4 col-6">
+                        <button class="btn btn-primary rounded-pill mb-3">BUY 3 MONTHS</button>
                         <h2 class="text-center mb-0 table-price">$3.60</h2>
                         <p class="text-center text-secondary fs-7">$1.20/month</p>
                     </div>
-                    <div class="col-5 col-sm-3 col-lg-2 offset-lg-2 offset-sm-1 offset-1">
+                    <div class="col-md-4 col-6">
+                        <button class="btn btn-primary rounded-pill mb-3">BUY 1 YEAR</button>
                         <h2 class="text-center mb-0 table-price">$12.99</h2>
                         <p class="text-center text-secondary fs-7">$1.08/month</p>
                     </div>
                 </div>
-                <!--Table-->
-                <div class="row">
-                    <p class=" col-2">Unlimited access to all tutorials</p>
-                    <img src="images/checkmark.png" alt="checkmark" class="checkmark col-2 offset-3">
-                    <img src="images/checkmark.png" alt="checkmark" class="checkmark col-1 offset-3">
+                <!--Pricing Table-->
+                <div class="row border-bottom border-secondary my-3 mx-md-5 mx-sm-2 mx-0 py-sm-3 py-0">
+                    <div class="col-4">
+                        <p>Unlimited access to all tutorials</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                </div>
+                <div class="row border-bottom border-secondary my-3 mx-md-5 mx-sm-2 mx-0 py-sm-3 py-0">
+                    <div class="col-4">
+                        <p>Access SmileSchool private forum</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                </div>
+                <div class="row border-bottom border-secondary my-3 mx-md-5 mx-sm-2 mx-0 py-sm-3 py-0">
+                    <div class="col-4">
+                        <p>Access Smiles contests & Smiles Analysis</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                </div>
+                <div class="row border-bottom border-secondary my-3 mx-md-5 mx-sm-2 mx-0 py-sm-3 py-0">
+                    <div class="col-4">
+                        <p>Get a free  toothbrush</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                </div>
+                <div class="row my-3 mx-md-5 mx-sm-2 mx-0 py-sm-3 py-0">
+                    <div class="col-4">
+                        <img src="images/signal.png" alt="signal" class="signal-img mb-2">
+                        <p>Exclusive discount on all Signal products</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="images/checkmark.png" alt="checkmark">
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,7 +181,7 @@
             <h2 class="faq align-self-center text-black fw-lighter mt-5 py-5 text-center">F.A.Q</h2>
             <div class="container px-3 px-sm-0 ps-0 ps-lg-5">
                 <div class="row pb-0">
-                    <div class="col-12 col-sm-6 mb-5 mb-md-0 pe-xxl-5 pe-0 ps-0 ps-xl-5">
+                    <div class="col-12 col-sm-6 mb-5 mb-md-0 pe-xxl-5 pe-0 ps-2 ps-xl-5">
                         <div class="card border-0 me-lg-5 pe-xxl-5 pe-0">
                             <div class="card-body">
                                 <h5 class="card-title text-start text-dark fs-4 mb-4 mb-sm-5">How does this work?</h5>
@@ -140,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 mb-5 mb-md-0 pe-xxl-5 pe-0 ps-0 ps-xl-5">
+                    <div class="col-12 col-sm-6 mb-5 mb-md-0 pe-xxl-5 pe-0 ps-2 ps-xl-5">
                         <div class="card border-0 me-lg-5 pe-xxl-5 pe-0">
                             <div class="card-body">
                                 <h5 class="card-title text-start text-dark fs-4 mb-4 mb-sm-5">How does this work?</h5>
@@ -148,7 +197,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 mb-5 mb-md-0 pe-xxl-5 pe-0 ps-0 ps-xl-5">
+                    <div class="col-12 col-sm-6 mb-5 mb-md-0 pe-xxl-5 pe-0 ps-2 ps-xl-5">
                         <div class="card border-0 me-lg-5 pe-xxl-5 pe-0">
                             <div class="card-body">
                                 <h5 class="card-title text-start text-dark fs-4 mb-4 mb-sm-5">How does this work?</h5>
@@ -156,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 pe-xxl-5 pe-0 ps-0 ps-xl-5">
+                    <div class="col-12 col-sm-6 pe-xxl-5 pe-0 ps-2 ps-xl-5">
                         <div class="card border-0 me-lg-5 pe-xxl-5 pe-0">
                             <div class="card-body">
                                 <h5 class="card-title text-start text-dark fs-4 mb-4 mb-sm-5">How does this work?</h5>
