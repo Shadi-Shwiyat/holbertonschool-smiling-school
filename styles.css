@@ -57,6 +57,19 @@ body {
     color: #FFF;
     opacity: .6;
 }
+.select-opacity {
+    opacity: .8;
+}
+.form-select:focus {
+    border-color: #d715e9;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(248, 102, 212, 0.377);
+}
+.form-control:focus {
+    border-color: #d715e9;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(248, 102, 212, 0.377);
+}
 /*Adding background to body*/
 .hero-header {
     background-image: url(images/background_1.png);
